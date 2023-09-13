@@ -34,8 +34,8 @@ public class Xaupangram {
         }
         if(alPhaBet.length - count <= K){
             K = K - (alPhaBet.length - count);
-            int ketqua = K/(alPhaBet.length) + 1;
-            System.out.println(ketqua);
+            int result = K/(alPhaBet.length) + 1;
+            System.out.println(result);
         }
         else{
             System.out.println(0);
