@@ -9,10 +9,10 @@ public class Mahoachuoi {
             arrTestCase[i] = str;
         }
         for(int j = 0; j < testCase; j++){
-            maHoa(arrTestCase[j]);
+            encryption(arrTestCase[j]);
         }
     }
-    public static void maHoa(String str){
+    public static void encryption(String str){
         String Str = str.toUpperCase();
         char[] charArray = Str.toCharArray();
         char value = charArray[0];
