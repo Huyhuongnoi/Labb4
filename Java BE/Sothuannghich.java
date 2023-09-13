@@ -9,10 +9,10 @@ public class Sothuannghich {
             arrTestCase[i] = num;
         }
         for(int j = 0; j < testCase; j++){
-            checkSoThuanNghich(arrTestCase[j]);
+            check(arrTestCase[j]);
         }
     }
-    public static void checkSoThuanNghich(int intNum){
+    public static void check(int intNum){
         int num = Math.abs(intNum);
         String strNum = String.valueOf(num);
         char[] arrCharNum = strNum.toCharArray();
